@@ -66,7 +66,7 @@ const WeatherComponent = ({ weatherData, getWeekday }) => {
         {day.date}
       </h2>
                 <img className='weather-icon ' style={{backgroundColor:"#ebe9e9"}} src={day.day.condition.icon} alt={day.day.condition.text} />
-                <p className='temperature' style={{backgroundColor:"#ebe9e9"}}> {day.day.avgtemp_c} C</p>
+                <p className='temperature' style={{backgroundColor:"#ebe9e9"}}> {day.day.avgtemp_c}°C</p>
                 <p className='temperature' style={{backgroundColor:"#ebe9e9"}}> {day.day.condition.text}</p>
      </div>
 
