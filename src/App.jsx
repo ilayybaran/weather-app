@@ -31,7 +31,7 @@ function App() {
 
   function getWeekday(dateStr) {
     const dateObj = new Date(dateStr);
-    const weekdays = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"];
+    const weekdays =  ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     return weekdays[dateObj.getDay()];
   }
 
