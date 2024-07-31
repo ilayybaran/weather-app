@@ -1,0 +1,49 @@
+*{
+  background-color: #dfdfdf;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.container{
+  text-align: center;
+  
+}
+
+.input-container{
+padding: 8px;
+width: 60%;
+height: 30px;
+border-radius: 5px;
+border-color: black;
+background-color: #ebe9e9;
+font-size: large;
+font-weight: 200;
+}
+.title{
+color: #4b4b4b;
+}
+.weather-container{
+  display: flex;
+  justify-content: center;
+}
+.day{
+  width: 200px;
+  margin: 50px 20px 20px ;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px;
+  box-shadow: cadetblue;
+  text-align: center;
+  background-color: #ebe9e9;
+}
